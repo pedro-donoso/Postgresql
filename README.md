@@ -1,3 +1,5 @@
+![0__SjBcAbgu6sF8X5A](https://github.com/pedro-donoso/Postgresql/assets/68760595/c4386299-6604-4a21-86b9-58a66aae3d96)
+
 # Postgresql
 
 1- Iniciar base de datos postgresql desde terminal:
