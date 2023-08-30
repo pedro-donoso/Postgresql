@@ -21,8 +21,14 @@ sudo -u postgres psql
 CREATE DATABASE integridad_referencial;
 ```
 
-4- Conectarse a la Base de datos:
+4- Visualizar las Bases de datos creadas:
 
 ```bash
-\c integridad_referencial
+\c + TAB
+```
+
+5- Conectarse a la Base de datos, agregando su nombre:
+
+```bash
+\c integridad_referencial;
 ```
