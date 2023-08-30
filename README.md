@@ -37,4 +37,10 @@ CREATE DATABASE integridad_referencial;
 
 CREATE TABLE usuarios (nombre VARCHAR(50), edad INT);
 
+7- Visualizar tabla creada:
+
+\dt
+
+
+
 
