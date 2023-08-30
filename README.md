@@ -41,6 +41,12 @@ CREATE TABLE usuarios (nombre VARCHAR(50), edad INT);
 
 \dt
 
+8- Insertar datos en la tabla:
+
+```bash
+INSERT INTO usuarios(nombre, edad) VALUES('Consuelo', 27);
+```
+
 
 
 
