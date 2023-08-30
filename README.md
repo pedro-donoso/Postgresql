@@ -35,16 +35,26 @@ CREATE DATABASE integridad_referencial;
 
 6- Crear tabla Usuarios con campos Nombre y Edad:
 
+```bash
 CREATE TABLE usuarios (nombre VARCHAR(50), edad INT);
+```
 
 7- Visualizar tabla creada:
 
+```bash
 \dt
+```
 
 8- Insertar datos en la tabla:
 
 ```bash
 INSERT INTO usuarios(nombre, edad) VALUES('Consuelo', 27);
+```
+
+9- Visualizar contenido de la tabla usuarios:
+
+```bash
+SELECT * FROM usuarios;
 ```
 
 
