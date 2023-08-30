@@ -32,3 +32,9 @@ CREATE DATABASE integridad_referencial;
 ```bash
 \c integridad_referencial;
 ```
+
+6- Crear tabla Usuarios con campos Nombre y Edad:
+
+CREATE TABLE usuarios (nombre VARCHAR(50), edad INT);
+
+
