@@ -57,6 +57,11 @@ INSERT INTO usuarios(nombre, edad) VALUES('Consuelo', 27);
 SELECT * FROM usuarios;
 ```
 
+10- Agregar ID
+
+DELETE FROM usuarios;
+
+ALTER TABLE usuarios ADD COLUMN ID INT PRIMARY KEY;
 
 
 
