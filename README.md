@@ -57,11 +57,25 @@ INSERT INTO usuarios(nombre, edad) VALUES('Consuelo', 27);
 SELECT * FROM usuarios;
 ```
 
-10- Agregar ID
+10- Editar tabla usuarios, agregando llave primaria
 
+```bash
 DELETE FROM usuarios;
 
 ALTER TABLE usuarios ADD COLUMN ID INT PRIMARY KEY;
+```
+
+11- Ver datos de usuarios 
+
+```bash
+\d usuarios
+```
+
+12- Insertar id
+
+```bash
+INSERT INTO usuarios (id, nombre, edad) VALUES (1, 'Francisco', 27);
+```
 
 
 
