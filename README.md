@@ -77,5 +77,12 @@ ALTER TABLE usuarios ADD COLUMN ID INT PRIMARY KEY;
 INSERT INTO usuarios (id, nombre, edad) VALUES (1, 'Francisco', 27);
 ```
 
+13- Cambiar nombre de la columna id
+
+```bash
+ALTER TABLE usuarios RENAME COLUMN id to usuario_id;
+```
+
+
 
 
