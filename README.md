@@ -83,7 +83,7 @@ INSERT INTO usuarios (id, nombre, edad) VALUES (1, 'Francisco', 27);
 ALTER TABLE usuarios RENAME COLUMN id to usuario_id;
 ```
 
-14- Crear tabla notas referenciada a tabla usuario, mediante columna usuario_id
+14- Crear tabla notas referenciada a tabla usuario, mediante columna usuario_id (foreign key)
 
 ```bash
 CREATE TABLE notas (notas_id INT, nota INT, usuario_id INT REFERENCES usuarios(usuario_id));
