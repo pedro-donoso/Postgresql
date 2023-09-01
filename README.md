@@ -89,6 +89,13 @@ ALTER TABLE usuarios RENAME COLUMN id to usuario_id;
 CREATE TABLE notas (notas_id INT, nota INT, usuario_id INT REFERENCES usuarios(usuario_id));
 ```
 
+15- Insertar valores en la tabla nota
+
+```bash
+INSERT INTO notas VALUES (1, 10, 1);
+```
+
+
 
 
 
