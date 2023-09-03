@@ -18,7 +18,7 @@ sudo -u postgres psql
 3- Crear la base de datos:
 
 ```bash
-CREATE DATABASE integridad_referencial;
+CREATE DATABASE tienda;
 ```
 
 4- Visualizar las Bases de datos creadas:
