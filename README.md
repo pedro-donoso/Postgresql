@@ -38,6 +38,9 @@ CREATE TABLE productos (id SERIAL PRIMARY KEY, nombre VARCHAR(100), precio NUMER
 ```bash
 \dt
 ```
+![screen02](https://github.com/pedro-donoso/Postgresql/assets/68760595/c2fbbca0-868a-4242-9e02-3c0cbb0820a0)
+
+
 
 7- Insertar datos en la tabla:
 
@@ -50,6 +53,8 @@ INSERT INTO productos(nombre, precio, stock) VALUES('Camisetas', 19.99, 100), ('
 ```bash
 SELECT * FROM productos;
 ```
+![screen03](https://github.com/pedro-donoso/Postgresql/assets/68760595/d846fb76-5e5c-483e-980f-52adb9bec157)
+
 
 
 
