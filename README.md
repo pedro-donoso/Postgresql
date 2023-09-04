@@ -25,12 +25,9 @@ CREATE DATABASE tienda;
 ```bash
 \c tienda;
 ```
+![screen01](https://github.com/pedro-donoso/Postgresql/assets/68760595/ea4576ed-d09a-43ab-acfd-cce0760436e2)
 
-![screen01](https://github.com/pedro-donoso/Postgresql/assets/68760595/c7d950ae-834a-47a7-8146-ad399419226a)
-
-
-
-5- Crear tabla Usuarios con campos Nombre y Edad:
+5- Crear tabla Productos con campos Nombre y Edad:
 
 ```bash
 CREATE TABLE productos (id SERIAL PRIMARY KEY, nombre VARCHAR(100), precio NUMERIC(10,2), stock INT);
