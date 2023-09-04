@@ -8,7 +8,6 @@
 sudo service postgresql start
 ```
 
-
 2- Iniciar psql:
 
 ```bash
@@ -30,7 +29,7 @@ CREATE DATABASE tienda;
 5- Conectarse a la Base de datos, agregando su nombre:
 
 ```bash
-\c integridad_referencial;
+\c tienda;
 ```
 
 6- Crear tabla Usuarios con campos Nombre y Edad:
