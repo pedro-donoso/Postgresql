@@ -50,49 +50,12 @@ CREATE TABLE productos (id SERIAL PRIMARY KEY, nombre VARCHAR(100), precio NUMER
 INSERT INTO productos(nombre, precio, stock) VALUES('Camisetas', 19.99, 100), ('Pantalon', 99.00, 59), ('Zapatos', 50.99, 38);
 ```
 
-9- Visualizar contenido de la tabla usuarios:
+9- Visualizar contenido de la tabla productos:
 
 ```bash
-SELECT * FROM usuarios;
+SELECT * FROM productos;
 ```
 
-10- Editar tabla usuarios, agregando llave primaria
-
-```bash
-DELETE FROM usuarios;
-
-ALTER TABLE usuarios ADD COLUMN ID INT PRIMARY KEY;
-```
-
-11- Ver datos de usuarios 
-
-```bash
-\d usuarios
-```
-
-12- Insertar id
-
-```bash
-INSERT INTO usuarios (id, nombre, edad) VALUES (1, 'Francisco', 27);
-```
-
-13- Cambiar nombre de la columna id
-
-```bash
-ALTER TABLE usuarios RENAME COLUMN id to usuario_id;
-```
-
-14- Crear tabla notas referenciada a tabla usuario, mediante columna usuario_id (foreign key)
-
-```bash
-CREATE TABLE notas (notas_id INT, nota INT, usuario_id INT REFERENCES usuarios(usuario_id));
-```
-
-15- Insertar valores en la tabla nota
-
-```bash
-INSERT INTO notas VALUES (1, 10, 1);
-```
 
 
 
