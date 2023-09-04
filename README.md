@@ -53,6 +53,15 @@ SELECT * FROM productos;
 ```
 ![screen03](https://github.com/pedro-donoso/Postgresql/assets/68760595/d846fb76-5e5c-483e-980f-52adb9bec157)
 
+9- Agregar nuevo elemento a la tabla productos:
+
+```bash
+INSERT INTO productos(nombre, precio, stock) VALUES('Camisas', 19.99, 100.5);
+```
+10- Ver nuevo elemento agregado a la tabla producto:
+
+
+
 
 
 
