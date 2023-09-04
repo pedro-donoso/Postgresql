@@ -26,6 +26,10 @@ CREATE DATABASE tienda;
 \c tienda;
 ```
 
+![screen01](https://github.com/pedro-donoso/Postgresql/assets/68760595/c7d950ae-834a-47a7-8146-ad399419226a)
+
+
+
 5- Crear tabla Usuarios con campos Nombre y Edad:
 
 ```bash
