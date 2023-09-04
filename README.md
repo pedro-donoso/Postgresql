@@ -35,7 +35,7 @@ CREATE DATABASE tienda;
 6- Crear tabla Usuarios con campos Nombre y Edad:
 
 ```bash
-CREATE TABLE usuarios (nombre VARCHAR(50), edad INT);
+CREATE TABLE productos (id SERIAL PRIMARY KEY, nombre VARCHAR(100), precio NUMERIC(10,2), stock INT);
 ```
 
 7- Visualizar tabla creada:
