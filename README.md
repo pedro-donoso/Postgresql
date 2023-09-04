@@ -72,6 +72,16 @@ SELECT * FROM productos WHERE precio > 30;
 ```
 ![screen](https://github.com/pedro-donoso/Postgresql/assets/68760595/16721db3-a1fb-4fe0-9f3d-b9e0b88571c4)
 
+12- Actualizar precio del producto Camisas:
+
+```bash
+UPDATE productos SET precio = 99.99 WHERE id = 4;
+```
+13- Ver precio actualizado del producto Camisas:
+
+![screen01](https://github.com/pedro-donoso/Postgresql/assets/68760595/3bfa7902-f811-42e8-87bc-8974638c6923)
+
+
 
 
 
