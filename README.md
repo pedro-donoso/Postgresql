@@ -47,7 +47,7 @@ CREATE TABLE productos (id SERIAL PRIMARY KEY, nombre VARCHAR(100), precio NUMER
 8- Insertar datos en la tabla:
 
 ```bash
-INSERT INTO usuarios(nombre, edad) VALUES('Consuelo', 27);
+INSERT INTO productos(nombre, precio, stock) VALUES('Camisetas', 19.99, 100), ('Pantalon', 99.00, 59), ('Zapatos', 50.99, 38);
 ```
 
 9- Visualizar contenido de la tabla usuarios:
