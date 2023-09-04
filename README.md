@@ -65,6 +65,13 @@ SELECT * FROM productos;
 ```
 ![screen04](https://github.com/pedro-donoso/Postgresql/assets/68760595/cc0fe3bf-6f51-453e-85ec-fad3db2c20db)
 
+11- Consultar productos cuyo precio sea mayor a 30:
+
+```bash
+SELECT * FROM productos WHERE precio > 30;
+```
+![screen](https://github.com/pedro-donoso/Postgresql/assets/68760595/16721db3-a1fb-4fe0-9f3d-b9e0b88571c4)
+
 
 
 
