@@ -20,37 +20,31 @@ sudo -u postgres psql
 CREATE DATABASE tienda;
 ```
 
-4- Visualizar las Bases de datos creadas:
-
-```bash
-\c + TAB
-```
-
-5- Conectarse a la Base de datos, agregando su nombre:
+4- Conectarse a la Base de datos, agregando su nombre:
 
 ```bash
 \c tienda;
 ```
 
-6- Crear tabla Usuarios con campos Nombre y Edad:
+5- Crear tabla Usuarios con campos Nombre y Edad:
 
 ```bash
 CREATE TABLE productos (id SERIAL PRIMARY KEY, nombre VARCHAR(100), precio NUMERIC(10,2), stock INT);
 ```
 
-7- Visualizar tabla creada:
+6- Visualizar tabla creada:
 
 ```bash
 \dt
 ```
 
-8- Insertar datos en la tabla:
+7- Insertar datos en la tabla:
 
 ```bash
 INSERT INTO productos(nombre, precio, stock) VALUES('Camisetas', 19.99, 100), ('Pantalon', 99.00, 59), ('Zapatos', 50.99, 38);
 ```
 
-9- Visualizar contenido de la tabla productos:
+8- Visualizar contenido de la tabla productos:
 
 ```bash
 SELECT * FROM productos;
