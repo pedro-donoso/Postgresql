@@ -60,6 +60,11 @@ INSERT INTO productos(nombre, precio, stock) VALUES('Camisas', 19.99, 100.5);
 ```
 10- Ver nuevo elemento agregado a la tabla producto:
 
+```bash
+SELECT * FROM productos;
+```
+![screen04](https://github.com/pedro-donoso/Postgresql/assets/68760595/cc0fe3bf-6f51-453e-85ec-fad3db2c20db)
+
 
 
 
